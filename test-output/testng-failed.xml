@@ -5,7 +5,7 @@
     <classes>
       <class name="MyPackage.MyTestCases">
         <methods>
-          <include name="CheckDepatureDate"/>
+          <include name="RandomlyChangeWebSiteLanguage"/>
           <include name="mySetup"/>
         </methods>
       </class> <!-- MyPackage.MyTestCases -->

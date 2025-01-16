@@ -1,40 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-13T00:26:12 EET" name="Default suite" finished-at="2025-01-13T00:26:14 EET" duration-ms="2433">
+  <suite started-at="2025-01-14T05:42:59 EET" name="Default suite" finished-at="2025-01-14T05:43:14 EET" duration-ms="15155">
     <groups>
     </groups>
-    <test started-at="2025-01-13T00:26:12 EET" name="Default test" finished-at="2025-01-13T00:26:14 EET" duration-ms="2433">
+    <test started-at="2025-01-14T05:42:59 EET" name="Default test" finished-at="2025-01-14T05:43:14 EET" duration-ms="15155">
       <class name="MyPackage.MyTestCases">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:MyPackage.MyTestCases@30b19518]" started-at="2025-01-13T00:26:12 EET" name="mySetup" finished-at="2025-01-13T00:26:14 EET" duration-ms="2247" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:MyPackage.MyTestCases@363042d7]" started-at="2025-01-14T05:42:59 EET" name="mySetup" finished-at="2025-01-14T05:43:01 EET" duration-ms="2126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="CheckTheDefaultLangaugeIsEnglish()[pri:1, instance:MyPackage.MyTestCases@30b19518]" started-at="2025-01-13T00:26:14 EET" name="CheckTheDefaultLangaugeIsEnglish" finished-at="2025-01-13T00:26:14 EET" duration-ms="29" status="PASS">
+        <test-method signature="CheckTheDefaultLangaugeIsEnglish()[pri:1, instance:MyPackage.MyTestCases@363042d7]" started-at="2025-01-14T05:43:01 EET" name="CheckTheDefaultLangaugeIsEnglish" finished-at="2025-01-14T05:43:01 EET" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheDefaultLangaugeIsEnglish -->
-        <test-method signature="CheckTheDefaultCurrency()[pri:2, instance:MyPackage.MyTestCases@30b19518]" started-at="2025-01-13T00:26:14 EET" name="CheckTheDefaultCurrency" finished-at="2025-01-13T00:26:14 EET" duration-ms="33" status="PASS">
+        <test-method signature="CheckTheDefaultCurrency()[pri:2, instance:MyPackage.MyTestCases@363042d7]" started-at="2025-01-14T05:43:01 EET" name="CheckTheDefaultCurrency" finished-at="2025-01-14T05:43:01 EET" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheDefaultCurrency -->
-        <test-method signature="CheckTheMoblieNumber()[pri:3, instance:MyPackage.MyTestCases@30b19518]" started-at="2025-01-13T00:26:14 EET" name="CheckTheMoblieNumber" finished-at="2025-01-13T00:26:14 EET" duration-ms="19" status="PASS">
+        <test-method signature="CheckTheMoblieNumber()[pri:3, instance:MyPackage.MyTestCases@363042d7]" started-at="2025-01-14T05:43:01 EET" name="CheckTheMoblieNumber" finished-at="2025-01-14T05:43:01 EET" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheMoblieNumber -->
-        <test-method signature="CheckQitafLogo()[pri:4, instance:MyPackage.MyTestCases@30b19518]" started-at="2025-01-13T00:26:14 EET" name="CheckQitafLogo" finished-at="2025-01-13T00:26:14 EET" duration-ms="42" status="PASS">
+        <test-method signature="CheckQitafLogo()[pri:4, instance:MyPackage.MyTestCases@363042d7]" started-at="2025-01-14T05:43:01 EET" name="CheckQitafLogo" finished-at="2025-01-14T05:43:01 EET" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckQitafLogo -->
-        <test-method signature="CheckHotelTabIsNotSelected()[pri:5, instance:MyPackage.MyTestCases@30b19518]" started-at="2025-01-13T00:26:14 EET" name="CheckHotelTabIsNotSelected" finished-at="2025-01-13T00:26:14 EET" duration-ms="16" status="PASS">
+        <test-method signature="CheckHotelTabIsNotSelected()[pri:5, instance:MyPackage.MyTestCases@363042d7]" started-at="2025-01-14T05:43:01 EET" name="CheckHotelTabIsNotSelected" finished-at="2025-01-14T05:43:01 EET" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckHotelTabIsNotSelected -->
-        <test-method signature="CheckDepatureDate()[pri:6, instance:MyPackage.MyTestCases@30b19518]" started-at="2025-01-13T00:26:14 EET" name="CheckDepatureDate" finished-at="2025-01-13T00:26:14 EET" duration-ms="19" status="PASS">
+        <test-method signature="CheckDepatureDate()[pri:6, instance:MyPackage.MyTestCases@363042d7]" started-at="2025-01-14T05:43:01 EET" name="CheckDepatureDate" finished-at="2025-01-14T05:43:01 EET" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckDepatureDate -->
+        <test-method signature="CheckReturnDate()[pri:7, instance:MyPackage.MyTestCases@363042d7]" started-at="2025-01-14T05:43:01 EET" name="CheckReturnDate" finished-at="2025-01-14T05:43:01 EET" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckReturnDate -->
+        <test-method signature="RandomlyChangeWebSiteLanguage()[pri:8, instance:MyPackage.MyTestCases@363042d7]" started-at="2025-01-14T05:43:01 EET" name="RandomlyChangeWebSiteLanguage" finished-at="2025-01-14T05:43:14 EET" duration-ms="12826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RandomlyChangeWebSiteLanguage -->
       </class> <!-- MyPackage.MyTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

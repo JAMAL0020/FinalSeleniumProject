@@ -2,6 +2,7 @@ package MyPackage;
 
 import java.time.Duration;
 import java.time.LocalDate;
+import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,10 +12,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Parameters {
 
 	WebDriver driver = new ChromeDriver();
+	
+	Random rand = new Random();
 
 	String TheDefaultURL = "https://www.almosafer.com/en";
 
-	String ExpectedLanguage = "en";
+	String ExpectedEnglishLanguage = "en";
+	
+	String ExpectedArabicLanguage = "ar";
 
 	String ExpectedCurrency = "SAR";
 	
@@ -25,14 +30,27 @@ public class Parameters {
 	String ExpectedValueForHotelTab = "false";
 	
 	LocalDate date = LocalDate.now();
-	
 	int Today =  date.getDayOfMonth();
+	
 	String Tomorrow = Integer.toString(date.plusDays(1).getDayOfMonth());
 	
+	String DayAfterTomorrow = Integer.toString(date.plusDays(2).getDayOfMonth());
 	
+	String [] Websites = {"https://www.almosafer.com/en","https://www.almosafer.com/ar"};
+	
+	int RandomIndexForTheWebSite = rand.nextInt(Websites.length);
+	
+	String [] EnglishCities = {"Dubai","Jeddah","Riyadh"};
+	int RandomEnglishCity = rand.nextInt(EnglishCities.length);
+	
+	
+	String [] ArabicCities = {"جده","دبي"};
+	int RandomArabicCity = rand.nextInt(ArabicCities.length);
+	
+	boolean ExpectedResults = true ;
 	
 
-	
+
 
 	public void ConfigurationToAccess() {
 
